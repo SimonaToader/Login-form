@@ -1,0 +1,21 @@
+
+
+html { 
+  background: url(images/woman-black.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+   
+}
+
+.square {
+    margin: 0 auto;
+    background: white;
+    height: 528px;
+    width: 30%;
+    display: block;
+  
+}
