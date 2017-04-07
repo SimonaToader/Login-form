@@ -8,14 +8,41 @@ html {
 body {
     margin-left: 0px;
     margin-top: 0px;
-   
+    margin-right: 0px;   
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .square {
     margin: 0 auto;
     background: white;
     height: 528px;
-    width: 30%;
+    width: 29%;
     display: block;
-  
+    margin-top: 0px;
 }
+
+ol {
+    width: 100%;
+    /*width: 800px;*/
+
+    display: table;
+    table-layout: fixed; /* the magic dust that ensures equal width */
+    background: white;
+    padding-left: 0px;
+    height:100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ol > li {
+    display: block;
+    border: 1px dashed red;
+    text-align: center;
+    height: 12.5%;
+
+}
+
