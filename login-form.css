@@ -8,7 +8,8 @@ html {
 body {
     margin-left: 0px;
     margin-top: 0px;
-    margin-right: 0px;   
+    margin-right: 0px; 
+    font-family: 'Open Sans', sans-serif;  
 }
 
 img {
@@ -41,8 +42,23 @@ ol {
 ol > li {
     display: block;
     border: 1px dashed red;
-    text-align: center;
+    text-align: left;
     height: 12.5%;
-
 }
 
+.login {
+    display: -webkit-flex;
+    display: inline;
+    float: left;
+}
+
+.register {
+    display: -webkit-flex;
+    display: flex;
+    float: right;  
+}
+
+.input-container {
+    padding-left:3px;
+    display: inline-block;
+}
