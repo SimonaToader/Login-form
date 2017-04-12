@@ -1,8 +1,8 @@
 
 
 html { 
-  background: url(images/woman-black.jpg) no-repeat center center fixed; 
-  background-size: cover;
+    background: url(images/woman-black.jpg) no-repeat center center fixed; 
+    background-size: cover;
 }
 
 body {
@@ -30,7 +30,6 @@ img {
 ol {
     width: 100%;
     /*width: 800px;*/
-
     display: table;
     table-layout: fixed; /* the magic dust that ensures equal width */
     background: white;
@@ -41,8 +40,8 @@ ol {
 }
 ol > li {
     display: block;
-    border: 1px dashed red;
-    text-align: left;
+    border: 1px solid black;
+    border-top:none;
     height: 12.5%;
 }
 
@@ -50,76 +49,153 @@ ol > li {
     display: -webkit-flex;
     float: left;
     height: 100%;
-    width:50%;
-
-   
+    width:50%;  
 }
 
 .register {
     display: -webkit-flex;
     float: right;  
     height: 100%;
-    width:50%;
-
-    
+    width:50%;   
 }
 
 input[type="submit"] {
-
     background:white;   
-
     border-top-color: black;
     border-left-color: black;
     border-right-color: black;
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     font-weight: bold;
-    
+  
 } 
 
 input[type="submit"][value="I'm already a client"] {
-border-top-width:4px;
-border-left-width:4px;
-padding-left: 76px;
-padding-right: 76px;
-border-bottom-width:0px;
+    border-top-width:4px;
+    border-left-width:4px;
+    padding-left: 76px;
+    padding-right: 76px;
+    border-bottom-width:0px;
+    border-bottom:none;
+    
 
 }
 
+
+
 input[type="submit"][value="I'm new here"] {
-border-top-width:1px;
-border-right-width:4px;
-border-left-width:4px;
-border-bottom-width:4px;
-border-bottom-color:black;
-padding-left: 92px;
-padding-right: 92px;
+    border-top-width:1px;
+    border-right-width:4px;
+    border-left-width:4px;
+    border-bottom-width:4px;
+    border-bottom-color:black;
+display:flex;
+justify-content: center;
+padding-left: 100px;
+padding-right: 100px;
+
+
+
+
 }
 
 input[type="email"] {
     margin:0px;
     display: -webkit-flex;
     float: right;  
-    width:100%;
+    width:94%;
     height:100%;
     border-bottom-color: black;
-    border-bottom-width: 1px;
+    border-bottom-width: 0px;
     border-top-width:0px;
     border-right-width:0px;
     border-left-width:0px;
-    padding-bottom: 49px;
+    padding-top: 38px;
+    padding-bottom: 3px;
+    border-top:none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+
 }
 
 input[type="password"] {
     margin:0px;
     display: -webkit-flex;
     float: right;  
-    width:100%;
+    width:94%;
     height:100%;
     border-bottom-color: black;
     border-bottom-width: 1px;
     border-top-width:0px;
     border-right-width:0px;
     border-left-width:0px;
-    padding-bottom: 49px;
+    border-bottom-width: 0px;
+    padding-top: 38px;
+    padding-bottom: 3px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
+
+p{
+    display:inline;
+    padding-left: 200px;
+    padding-right: 40px;
+    margin-top:22px;  
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+}
+
+label.agree{
+    display: flex; 
+    justify-content: center;
+    margin-top:22px;    
+}
+.remember {
+    height: 100%;
+    padding-left: 7px;
+    padding-right: 0px;
+    display:inline;
+    background: pink;
+    align-items: flex-start;
+    display: flex; 
+    justify-content: center;
+}
+
+input[type="checkbox"] {
+    margin-top:27px;   
+}
+
+input[type="submit"][value="Login"] {
+    height:100%;
+    width:100%;  
+    border-top-width:0px;
+    border-left-width:4px;
+    padding-left: 76px;
+    padding-right: 76px;
+    border-bottom-width:0px;
+    border-bottom:none;
+    color:white;
+    background-color: black;
+    padding-bottom: 22px;
+    padding-top: 22px;
+
+}
+
+.choice{
+    display: flex; 
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;   
+    padding-top: 22px;
+    margin-top: 0px;
+}
+
+input[type="submit"][value="facebool"]{
+   display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+}
