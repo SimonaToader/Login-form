@@ -67,6 +67,7 @@ input[type="submit"] {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: bold;
+
   
 } 
 
@@ -77,11 +78,7 @@ input[type="submit"][value="I'm already a client"] {
     padding-right: 76px;
     border-bottom-width:0px;
     border-bottom:none;
-    
-
 }
-
-
 
 input[type="submit"][value="I'm new here"] {
     border-top-width:1px;
@@ -89,14 +86,10 @@ input[type="submit"][value="I'm new here"] {
     border-left-width:4px;
     border-bottom-width:4px;
     border-bottom-color:black;
-display:flex;
-justify-content: center;
-padding-left: 100px;
-padding-right: 100px;
-
-
-
-
+    display:flex;
+    justify-content: center;
+    padding-left: 83px;
+    padding-right: 83px;
 }
 
 input[type="email"] {
@@ -140,25 +133,34 @@ input[type="password"] {
 
 p{
     display:inline;
-    padding-left: 200px;
-    padding-right: 40px;
+    padding-left: 240px;
+    padding-right: 15px;
     margin-top:22px;  
     text-align: center;
     display: flex; 
     justify-content: center;
 }
 
-label.agree{
+.forgot-password{
+    color: dodgerblue;
+    text-decoration: underline;
+    }
+
+
+
+
+.agree{
     display: flex; 
     justify-content: center;
-    margin-top:22px;    
+    margin-top:22px;  
+    padding-left:6px;  
 }
 .remember {
     height: 100%;
     padding-left: 7px;
     padding-right: 0px;
     display:inline;
-    background: pink;
+
     align-items: flex-start;
     display: flex; 
     justify-content: center;
@@ -193,9 +195,69 @@ input[type="submit"][value="Login"] {
     margin-top: 0px;
 }
 
-input[type="submit"][value="facebool"]{
-   display: -webkit-flex; /* Safari */
-    -webkit-align-items: center; /* Safari 7.0+ */
-    display: flex;
-    align-items: center;
+li.social-media{
+   display: -webkit-flex; 
+    -webkit-align-items: center; 
+
+}
+
+.facebook{
+  height: 68px;
+  border: 0px;
+  padding: 0px;
+  width: 205px;
+  background: #3B5998;
+  color:white;
+}
+
+.facebook img {
+    height: 100%;
+    width: initial;
+    margin: 0 auto;
+    padding-top: 7px;
+    height: 50px;
+}
+
+.google {
+  height: 68px;
+  border: 0px;
+  padding: 0px;
+  width: 205px;
+  background: #CD3E2D;
+  color:white;
+}
+.google img {
+    height: 100%;
+    width: initial;
+    margin: 0 auto;
+    padding-top: 7px;
+    height: 50px;
+}
+.twitter {
+  height: 68px;
+  border: 0px;
+  padding: 0px;
+  width: 206px;
+  background: #359CD6;
+  color:white;
+}
+
+.twitter img {
+    height: 100%;
+    width: initial;
+    margin: 0 auto;
+    padding-top: 7px;
+    height: 50px;
+}
+
+.choice2 {
+    display: flex; 
+    justify-content: center;
+    padding-top: 20px;
+}
+
+h7{
+    color:dodgerblue;
+    padding-left:5px;
+    text-decoration: underline;
 }
