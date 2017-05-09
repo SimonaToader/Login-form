@@ -1,24 +1,23 @@
 
-
-html { 
+ html { 
     background: url(images/woman-black.jpg) no-repeat center center fixed; 
     background-size: cover;
 }
 
-body {
+ body {
     margin-left: 0px;
     margin-top: 0px;
     margin-right: 0px; 
     font-family: 'Open Sans', sans-serif;  
 }
 
-img {
+ img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-.square {
+.form-section .square {
     margin: 0 auto;
     background: white;
     height: 528px;
@@ -27,7 +26,7 @@ img {
     margin-top: 0px;
 }
 
-ol {
+.form-section ol {
     width: 100%;
     /*width: 800px;*/
     display: table;
@@ -38,7 +37,7 @@ ol {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-ol > li {
+.form-section ol > li {
     display: block;
     border: 1px solid black;
     border-top:none;
@@ -47,24 +46,24 @@ ol > li {
 
 }
 
-li.actions{
+.form-section li.actions{
     border-bottom-width: 0px;
 }
-.login {
+.form-section .login {
     display: -webkit-flex;
     float: left;
     height: 100%;
     width:50%;  
 }
 
-.register {
+.form-section .register {
     display: -webkit-flex;
     float: right;  
     height: 100%;
     width:50%;   
 }
 
-input[type="submit"] {
+.form-section input[type="submit"] {
     background:white;   
     border-top-color: black;
     border-left-color: black;
@@ -72,12 +71,10 @@ input[type="submit"] {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: bold;
-    
 
-  
 } 
 
-input[type="submit"][value="I'm already a client"] {
+.form-section input[type="submit"][value="I'm already a client"] {
     border-top-width:4px;
     border-left-width:4px;
     padding-left: 55px;
@@ -88,7 +85,7 @@ input[type="submit"][value="I'm already a client"] {
     
 }
 
-input[type="submit"][value="I'm new here"] {
+.form-section input[type="submit"][value="I'm new here"] {
     border-top-width:0px;
     border-right-width:4px;
     border-left-width:4px;
@@ -101,7 +98,7 @@ input[type="submit"][value="I'm new here"] {
 
 }
 
-input[type="email"] {
+.form-section input[type="email"] {
     margin:0px;
     display: -webkit-flex;
     float: right;  
@@ -120,7 +117,7 @@ input[type="email"] {
 
 }
 
-input[type="password"] {
+.form-section input[type="password"] {
     margin:0px;
     display: -webkit-flex;
     float: right;  
@@ -139,7 +136,7 @@ input[type="password"] {
 }
 
 
-p{
+.form-section p{
     display:inline;
     padding-left: 200px;
     padding-right: 15px;
@@ -148,24 +145,24 @@ p{
     display: flex; 
     justify-content: center;
 }
-.forgot-password:hover {
+.form-section .forgot-password:hover {
     color: rebeccapurple;
     cursor:pointer;
 }
 
-.forgot-password{
+.form-section .forgot-password{
     color: dodgerblue;
     text-decoration: underline;
     
     }
 
-.agree{
+.form-section .agree{
     display: flex; 
     justify-content: center;
     margin-top:22px;  
     padding-left:6px;  
 }
-.remember {
+.form-section .remember {
     height: 100%;
     padding-left: 7px;
     padding-right: 0px;
@@ -176,11 +173,11 @@ p{
     justify-content: center;
 }
 
-input[type="checkbox"] {
+.form-section input[type="checkbox"] {
     margin-top:27px;   
 }
 
-input[type="submit"][value="Login"] {
+.form-section input[type="submit"][value="Login"] {
     height:100%;
     width:100%;  
     border-top-width:0px;
@@ -196,7 +193,7 @@ input[type="submit"][value="Login"] {
 
 }
 
-.choice{
+.form-section .choice{
     display: flex; 
     justify-content: center;
     padding-left: 40px;
@@ -205,16 +202,16 @@ input[type="submit"][value="Login"] {
     margin-top: 0px;
 }
 
-li.social-media{
+.form-section li.social-media{
    display: -webkit-flex; 
     -webkit-align-items: center; 
     
 
 }
-.facebook:hover {
+.form-section .facebook:hover {
     cursor:pointer;
 }
-.facebook{
+.form-section .facebook{
   height: 68px;
   border: 0px;
   padding: 0px;
@@ -223,7 +220,7 @@ li.social-media{
   color:white;
 }
 
-.facebook img {
+.form-section .facebook img {
     height: 100%;
     width: initial;
     margin: 0 auto;
@@ -231,11 +228,11 @@ li.social-media{
     height: 50px;
 }
 
-.google:hover {
+.form-section .google:hover {
     cursor:pointer;
 }
 
-.google {
+.form-section .google {
   height: 68px;
   border: 0px;
   padding: 0px;
@@ -243,18 +240,18 @@ li.social-media{
   background: #CD3E2D;
   color:white;
 }
-.google img {
+.form-section .google img {
     height: 100%;
     width: initial;
     margin: 0 auto;
     padding-top: 7px;
     height: 50px;
 }
-.twitter:hover {
+.form-section .twitter:hover {
     cursor:pointer;
 }
 
-.twitter {
+.form-section .twitter {
   height: 68px;
   border: 0px;
   padding: 0px;
@@ -263,7 +260,7 @@ li.social-media{
   color:white;
 }
 
-.twitter img {
+.form-section .twitter img {
     height: 100%;
     width: initial;
     margin: 0 auto;
@@ -271,20 +268,20 @@ li.social-media{
     height: 50px;
 }
 
-.choice2 {
+.form-section .choice2 {
     display: flex; 
     justify-content: center;
     padding-top: 20px;
 }
 
-h7{
+.form-section h7{
     color:dodgerblue;
     padding-left:5px;
     text-decoration: underline;
 
 }
 
-h7:hover {
+.form-section h7:hover {
     color: rebeccapurple;
     cursor:pointer;
 }
