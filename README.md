@@ -1,7 +1,7 @@
 <h2>
-Contact-form.css -A contact form for a tourism website
+login-form.css -A contact form for an e-commerce site selling clothes.
 </h2>
-<p>This is a contact form focused mainly on receiving feedback and suggestions from the client.
+<p>This is a login form 
 </p> 
 <h3>Demo
 </h3>
@@ -17,7 +17,7 @@ Contact-form.css -A contact form for a tourism website
  </p>
 ```html
 <head>
-  <link rel="stylesheet" type="text/css" href="Contact-form.css">
+   <link rel="stylesheet" type="text/css" href="login-form.css">
 </head>
 ```
 
@@ -25,28 +25,9 @@ Contact-form.css -A contact form for a tourism website
 </p>
 
 ```html
-<form class="form-section">
-        <div class="big-square">
-            <header>
-                <h1>
-                    *Your form name*
-                </h1>
-            </header>
-            <div class="column-50-1">
-                    <div class="row">
-                        <label>
-                            *Label Name*
-                        </label>
-                        <div class="input-container">
-                            <input type="text">
-                        </div>
-                    </div>
-                <div class="column-50-2">
-                    <input type="submit" value="*Button name*">
-                </div>
-            </div>
-        </div>
-    </form>
+    <form class="form-section">
+        <div class="square">
+        ?????
 ```
 
 <p>
